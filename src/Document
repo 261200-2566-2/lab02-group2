@@ -1,0 +1,16 @@
+1.give a complete description of AirPurifier class
+    what should be instance variables?
+ans: String model , boolean power , String serialNo ,int speed
+    what should be instance methods?
+ans: turnOn , turnOff , setSpeed , show
+    what should be class variables?
+ans: int modelCount ,int numberPurifier , String[] models ใช้เก็บรุ่นแต่ละรุ่น,int[] modelsNumber ใช้เก็บจำนวนเครื่องในแต่ละรุ่น
+    what should be class methods?
+ans: mostPopularModel
+
+2.for each method proposed above, how do you plan to implement it?
+    give an overview of the computation
+    what's needed as inputs?
+ans: turnOn() , turnOff() , setSpeed(int) ,  mostPopularModel() , show()
+    what's to be returned?
+ans:  turnOn()-> void เปิด , turnOff() -> void ปิด, setSpeed(int) -> void ปรับสปีด,  mostPopularModel()->string ให้รุ่นที่มีจำนวนมากสุด, show()->void แสดงสถานะเครื่อง
